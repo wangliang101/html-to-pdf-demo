@@ -1,0 +1,32 @@
+.app_wrap {
+  
+  .app_header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app_body{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app_footer{
+    height: 60px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & button{
+      height: 40px;
+      width: 80px;
+      margin-right: 15px;
+    }
+  }
+}

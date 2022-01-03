@@ -7,13 +7,11 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="app_wrap">
         <Routes>
             <Route path='/canvasPage' element={<CanvasPage />} />
             <Route path='/imagePage' element={<ImagePage />} />
             <Route path="*" element={<Navigate to="/imagePage"/>} />
         </Routes>
-      </div>
     </BrowserRouter>
   );
 }
